@@ -8,7 +8,13 @@
   <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body>
-  {% include navigation.html %}
-  {{ content }}
+  <div class="container">
+    <div class="wrapper">
+      {% include navigation.html %}
+    </div>
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </div>
 </body>
 </html>

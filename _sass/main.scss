@@ -1,3 +1,70 @@
-.current {
-  color: green;
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+body {
+  font-family: 'Crimson Text', serif;
+  font-size: 18pt;
+  background-color: #212121;
+  color: #FAFAFA;
+}
+
+a {
+  color: #FAFAFA;
+}
+
+a.current {
+  background-color: #424242;
+  border-radius: 2rem;
+}
+
+ul.nav li a {
+  padding: 0.5rem 1rem;
+}
+
+.container {
+  min-width: 100%;
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 700px;
+  padding: 0 1.5rem;
+  align-items: center;
+}
+
+p {
+  text-align: justify;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav li a {
+  text-decoration: none;
+  margin: 1rem;
+}
+
+.profile-image {
+  margin-top: 2.5rem;
+  width: 10rem;
+  height: auto;
+  border-radius: 10rem;
+}
+
+.name {
+  margin-bottom: 0.5rem;
+}
+
+.job-title {
+  color: #BDBDBD;
 }
