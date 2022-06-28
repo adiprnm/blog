@@ -2,13 +2,22 @@
 
 body {
   font-family: 'Crimson Text', serif;
-  font-size: 18pt;
+  font-size: 16pt;
   background-color: #212121;
   color: #FAFAFA;
 }
 
+img.tools {
+  height: 50px;
+  width: 50px;
+}
+
 a {
   color: #FAFAFA;
+}
+
+.description {
+  margin-top: 2rem;
 }
 
 a.current {
@@ -18,15 +27,26 @@ a.current {
 
 ul.nav li a {
   padding: 0.5rem 1rem;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 375px) {
+  ul.nav li a {
+    margin: 0;
+  }
+}
+
+.nav-item {
+  padding: 0 1rem;
 }
 
 .container {
   min-width: 100%;
+  min-height: 95vh;
   display: flex;
   margin: 0;
   flex-direction: column;
   align-items: center;
-  padding: 2rem 0;
 }
 
 .wrapper {
@@ -40,6 +60,16 @@ ul.nav li a {
 
 p {
   text-align: justify;
+  margin-top: 0;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12pt;
+}
+
+a {
+  text-decoration: none;
 }
 
 .nav {
@@ -50,7 +80,6 @@ p {
 }
 
 .nav li a {
-  text-decoration: none;
   margin: 1rem;
 }
 
